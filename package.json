@@ -1,10 +1,11 @@
 {
-  "name": "angular2-quickstart",
+  "name": "ng2-karma-jasmine",
   "version": "1.0.0",
   "description": "Test Driven Angular2",
   "scripts": {
     "start": "lite",
     "tsc": "tsc",
+    "watch": "webpack --watch",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
     "typings": "typings",
@@ -13,9 +14,26 @@
   },
   "license": "ISC",
   "dependencies": {
-    "traceur": "0.0.111"
+    "@angular/common": "^2.1.1",
+    "@angular/compiler": "^2.1.1",
+    "@angular/core": "^2.1.1",
+    "@angular/http": "^2.1.1",
+    "@angular/platform-browser": "^2.1.1",
+    "@angular/platform-browser-dynamic": "^2.1.1",
+    "@angular/router": "^3.1.1",
+    "es6-shim": "^0.35.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-beta.12",
+    "traceur": "0.0.111",
+    "zone.js": "^0.6.26"
   },
   "devDependencies": {
-    "lite-server": "^2.2.2"
+    "babel-core": "^5.8.23",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.25.0",
+    "lite-server": "^2.2.2",
+    "moment": "^2.10.6",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.3"
   }
 }
